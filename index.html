@@ -46,7 +46,7 @@
             <span class="span">Daily : 8.00 am to 10.00 pm</span>
          </div>
 
-         <a href="tel:+380111111111" class="topbar-item">
+         <a class="topbar-item" href="tel:+380111111111">
             <div class="icon">
                <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
             </div>
@@ -55,7 +55,7 @@
 
          <div class="separator"></div>
 
-         <a href="mailto:merkushynwrite@gmail.com" class="topbar-item link">
+         <a class="topbar-item link" href="mailto:merkushynwrite@gmail.com">
             <div class="icon">
                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
             </div>
@@ -64,6 +64,88 @@
 
       </div>
    </div>
+
+   <!--
+      #header
+   -->
+   <header class="header" data-header>
+      <div class="container">
+
+         <a class="logo" href="#">
+            <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+         </a>
+
+         <nav class="navbar" data-navbar>
+            <button class="close-btn" aria-label="close menu" data-nav-toggler>
+               <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <a href="#" class="logo">
+               <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+            </a>
+
+            <ul class="navbar-list">
+               <li class="navbar-item">
+                  <a class="navbar-link hover-underline active" href="#home">
+                     <div class="separator"></div>
+                     <span class="span">Home</span>
+                  </a>
+               </li>
+               <li class="navbar-item">
+                  <a class="navbar-link hover-underline active" href="#menu">
+                     <div class="separator"></div>
+                     <span class="span">Menu</span>
+                  </a>
+               </li>
+               <li class="navbar-item">
+                  <a class="navbar-link hover-underline active" href="#about">
+                     <div class="separator"></div>
+                     <span class="span">About us</span>
+                  </a>
+               </li>
+               <li class="navbar-item">
+                  <a class="navbar-link hover-underline active" href="#">
+                     <div class="separator"></div>
+                     <span class="span">Our Chefs</span>
+                  </a>
+               </li>
+               <li class="navbar-item">
+                  <a class="navbar-link hover-underline active" href="#">
+                     <div class="separator"></div>
+                     <span class="span">Contact</span>
+                  </a>
+               </li>
+            </ul>
+
+            <div class="text-center">
+               <p class="headline-1 navbar-title">Visit Us</p>
+               <address class="body-4">Restaurant St, Delicious City, 
+                  <br>
+                  London 9578, UK
+               </address>
+               <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+               <a href="mailto:restaurant@gmail.com" class="body-4 sidebar-link">restaurant@gmail.com</a>
+               <div class="separator"></div>
+               <p class="contact-label">Booking Request</p>
+               <a href="tel:+380777777777" class="body-1 contact-number hover-underline">+380777777777</a>
+            </div>
+         </nav>
+
+         <a class="btn btn-secondary" href="#">
+            <span class="text text-1">Find A Table</span>
+            <span class="text text-2" aria-hidden="true">Find A Table</span>
+         </a>
+
+         <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+         </button>
+
+         <div class="overlay" data-nav-toggler data-overlay></div>
+
+      </div>
+   </header>
 
    <script src="assets/js/script.js"></script>
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
